@@ -19,7 +19,7 @@ dept_no VARCHAR FK >- departments.dept_no
 employees
 -
 emp_no PK INT
-emp_title_id
+emp_title_id VARCHAR
 birth_date DATE 
 first_name VARCHAR
 last_name VARCHAR
@@ -34,5 +34,5 @@ salary BIGINT
 
 titles
 -
-title_id INT FK >- employees.emp_title_id
+title_id VARCHAR FK >- employees.emp_title_id
 title VARCHAR
